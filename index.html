@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Newsletter Signup Design</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/27d4dbe998.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="signup-container">
+    <div class="icon-container">
+      <i class="far fa-envelope-open"></i>
+    </div>
+    <h2>Join Our Newsletter</h2>
+    <p>Get the latest updates and coding tips straight to your inbox.</p>
+
+    <form id="signup-form">
+      <div class="input-group">
+        <i class="far fa-envelope"></i>
+        <input type="email" id="email-input" required placeholder="Enter your email" />
+      </div>
+      <button type="submit">
+        Subscribe <i class="fas fa-arrow-right"></i>
+      </button>
+    </form>
+
+    <div id="message" style="margin-top: 1rem; font-size: 0.9rem;"></div>
+
+    <div class="benefits">
+      <p class="benefit-item">
+        <i class="fas fa-check"></i> Weekly coding tips
+      </p>
+      <p class="benefit-item">
+        <i class="fas fa-check"></i> No spam, unsubscribe anytime
+      </p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
